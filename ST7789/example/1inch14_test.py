@@ -1,5 +1,21 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
+
+# For interfacing with 1.14" color TFT display (240x135) over SPI.
+# https://www.aliexpress.com/item/32983040121.html
+#
+# Adapted from default Waveshare example code.
+#
+# Pin connections to Raspberry Pi:
+# VCC -> 3.3V
+# GND -> GND
+# SCL -> SCLK (BCM 11)
+# SDA -> MOSI (BCM 10)
+# RES -> 13 (BCM 27)
+# DC -> 22 (BCM 25)
+# CS -> CE0 (BCM 8)
+# BLK -> (unused)
+
 import os
 import sys
 import time
