@@ -9,12 +9,12 @@
 # Pin connections to Raspberry Pi:
 # VCC -> 3.3V
 # GND -> GND
-# SCL -> SCLK (BCM 11)
-# SDA -> MOSI (BCM 10)
+# SCL -> SCLK (23, BCM 11)
+# SDA -> MOSI (19, BCM 10)
 # RES -> 13 (BCM 27)
 # DC -> 22 (BCM 25)
-# CS -> CE0 (BCM 8)
-# BLK -> (unused)
+# CS -> CE0 (24, BCM 8)
+# BLK -> optional (backlight: default on; connect to ground to turn off)
 
 import os
 import sys
