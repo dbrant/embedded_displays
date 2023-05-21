@@ -57,7 +57,7 @@ GPIO.output(RESN, 1)
 time.sleep(0.1)
 
 try:
-    file = "bissel4.png"
+    file = "bissel4.bmp"
     while True:
         img = Image.open(file).convert('1') #.convert(mode='1',dither=Image.FLOYDSTEINBERG)
         display_img(img)
