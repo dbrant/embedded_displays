@@ -1,4 +1,16 @@
 
+// NOTE: This is currently intended to work with my ESP32-S2 dev board
+// (https://www.wemos.cc/en/latest/s2/s2_mini.html)
+// ...with the following pins:
+// 
+// 3: BUSY
+// 5: DC
+// 7: SCL
+// 9: RES
+// 11: SDA
+// 12: CS
+//
+
 // base class GxEPD2_GFX can be used to pass references or pointers to the display instance as parameter, uses ~1.2k more code
 // enable or disable GxEPD2_GFX base class
 #define ENABLE_GxEPD2_GFX 0
